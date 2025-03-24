@@ -1,0 +1,11 @@
+.devider {
+    width: 200px;
+    height: 2px;
+    border: none;
+    background: #000;
+    margin: 0 auto;
+    &_main {
+        transform: translateY(-20px);
+        background: #fff;
+    }
+}

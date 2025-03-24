@@ -1,0 +1,15 @@
+.location {
+    padding-top: 100px;
+    min-height: 300px;
+    &__wrapper {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+    &__img {
+        margin-top: 40px;
+        height: 600px;
+        background: url('../../img/tayni-rubleva.jpg') no-repeat 50% / cover fixed;
+    }
+}
