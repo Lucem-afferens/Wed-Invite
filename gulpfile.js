@@ -107,7 +107,7 @@ gulp.task('copyHtml', function(){
 })
 gulp.task('copyAudio', function () {
     return gulp
-    .src('./src/audio/*')
+    .src('./src/audio/*', { encoding: false })
     .pipe(gulp.dest('./dist/audio/'))
 })
 gulp.task('copyVideo', function () {

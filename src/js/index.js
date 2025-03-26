@@ -1,5 +1,6 @@
 //Intersection Observer API
 
+// This for "anim"
 // settings
 let options = {
     root: null,
@@ -32,7 +33,9 @@ targets.forEach(target => {
 });
 
 
-//количество пикселей на прокрутку страницы
+
+//For Main Arrow
+//количество пикселей на прокрутку страницы   
 const hideAfter = 300;
 
 // функция для скрытия/появления элемента

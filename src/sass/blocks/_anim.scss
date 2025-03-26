@@ -7,6 +7,10 @@
         transform: scale(1);
         transition: all 2s ease;
     }
+    &_dress-cods {
+        transition: all 3s;
+        transform: scale(1.2);
+    }
 }
 .active {
     opacity: 1;

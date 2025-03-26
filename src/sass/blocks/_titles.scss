@@ -21,6 +21,10 @@
         opacity: .7;
         font-size: clamp(38px, 4vw, 80px);
     }
+    &_path {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 .vibes {
