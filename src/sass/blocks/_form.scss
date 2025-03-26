@@ -48,6 +48,11 @@ form {
     }
     input {
         margin-right: 5px;
+        &:focus {
+            border: 1px solid #c0c0c0;
+            outline: none;
+            border-color: none;
+        }
     }
 
 
