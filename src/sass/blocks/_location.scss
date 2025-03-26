@@ -12,4 +12,13 @@
         height: 600px;
         background: url('../../img/tayni-rubleva.jpg') no-repeat 50% / cover fixed;
     }
+    address {
+        font-family: "Great Vibes", cursive;
+        font-weight: 400; 
+        text-transform: none;
+        font-size: clamp(26px, 4vw, 44px);
+        text-wrap: pretty;
+        margin-top: 10px;
+        text-decoration: none;
+    }
 }

@@ -13,4 +13,13 @@
         background: url('../../img/turandot.jpg') no-repeat 35%/cover fixed;
         background-position: bottom;
     }
+    address {
+        font-family: "Great Vibes", cursive;
+        font-weight: 400; 
+        text-transform: none;
+        font-size: clamp(26px, 4vw, 44px);
+        text-wrap: pretty;
+        margin-top: 10px;
+        text-decoration: none;
+    }
 }
