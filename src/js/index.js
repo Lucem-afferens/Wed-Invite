@@ -90,12 +90,12 @@ const play = document.querySelector('.audio-btn__play'),
 playStopIcon.addEventListener('click', function () {
     if (audio.paused) {
         audio.play(),
-        stop.classList.remove('btn-hidden'),
-        play.classList.add('btn-hidden');
+        play.classList.remove('btn-hidden'),
+        stop.classList.add('btn-hidden');
     } else {
         audio.pause(),
-        stop.classList.add('btn-hidden'),
-        play.classList.remove('btn-hidden');
+        play.classList.add('btn-hidden'),
+        stop.classList.remove('btn-hidden');
     }
 }
 );
