@@ -87,6 +87,16 @@ const audio = document.getElementById('audio');
 const play = document.querySelector('.audio-btn__play'),
       stop = document.querySelector('.audio-btn__stop');
 
+window.addEventListener('load', () => {
+    if (audio.paused) {
+        play.classList.add('btn-hidden'),
+        stop.classList.remove('btn-hidden');
+    } else {
+        play.classList.remove('btn-hidden'),
+        stop.classList.add('btn-hidden');
+    }
+});
+
 playStopIcon.addEventListener('click', function () {
     if (audio.paused) {
         audio.play(),
@@ -99,5 +109,6 @@ playStopIcon.addEventListener('click', function () {
     }
 }
 );
+
 
 
