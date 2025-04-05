@@ -289,19 +289,19 @@
                     Ответьте, пожалуйста, на несколько вопросов, которые мы для Вас подготовили:
                 </div>
                 <form action="" method="post">
-                    <div class="form__no-flex">
-                        <label for="name">Ваше имя и фамилия:</label>
+                    <div class="form__no-flex anim">
+                        <label for="name" class="font-vibe">Ваше имя и фамилия:</label>
                         <input type="text" class="form__text" name="name" id="name" placeholder="Введите имя и фамилию" required autocomplete="name">
                     </div> 
-                    <fieldset>
-                        <legend>
+                    <fieldset class="anim">
+                        <legend class="font-vibe">
                             Планируете ли Вы присутствовать на свадьбе?
                         </legend>
                         <label for="yes"><input type="radio" id="yes" name="welcome" checked class="form__input_mr-10">С удовольствием приду!</label> <br>
                         <label for="no"><input type="radio" id="no" name="welcome" class="form__input_mr-10">К сожалению, не смогу присутствовать.</label>
                     </fieldset>
-                    <fieldset>
-                        <legend>
+                    <fieldset class="anim">
+                        <legend class="font-vibe">
                             Уточните Ваши предпочтения в алкоголе, выбрав один или несколько вариантов:
                         </legend>
                         <input name="drinking[]" type="checkbox" id="cognac">
@@ -319,8 +319,8 @@
                         <input name="drinking[]" type="checkbox" id="non-alcoholic">
                         <label for="non-alcoholic">Не пью алкоголь</label>
                     </fieldset>
-                    <fieldset>
-                        <legend>
+                    <fieldset class="anim">
+                        <legend class="font-vibe">
                             Останетесь ли Вы на второй день?
                         </legend>
                         <input type="radio" id="stay" name="stay">
@@ -328,15 +328,15 @@
                         <input type="radio" id="no-stay" name="stay">
                         <label for="no-stay">Нет</label>
                     </fieldset>
-                    <div class="form__no-flex">
-                        <label for="partner">Будете ли Вы со своей второй половинкой?</label>
+                    <div class="form__no-flex" anim>
+                        <label class="font-vibe" for="partner">Будете ли Вы со своей второй половинкой?</label>
                         <input type="text" class="form__text" name="partnerName" id="partner" placeholder="Если ДА, напишите ее/его имя и фамилию" pattern="[A-Za-zA-Яа-я]+">
                     </div> 
-                    <div class="form__no-flex">
-                        <label for="child">Будут ли с Вами дети?</label>
+                    <div class="form__no-flex anim">
+                        <label class="font-vibe" for="child">Будут ли с Вами дети?</label>
                         <input type="text" class="form__text" name="childName" id="child" placeholder="Если ДА, укажите их имена и возраст" pattern="[A-Za-zA-Яа-я]+">
                     </div> 
-                    <button type="submit"> Отправить </button>
+                    <button class="anim" type="submit"> Отправить </button>
                 </form>
             </div>
         </div>
