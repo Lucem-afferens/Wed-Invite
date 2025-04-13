@@ -19,8 +19,14 @@
     &__no-flex {
         width: 100%;
         input {
+            margin: 5px;
             margin-top: 10px;
-            background: rgb(242, 247, 255);
+            background: rgba(242, 247, 255, 0);
+            width: 99%;
+            &:focus {
+                outline: 1px solid $input-color;
+            }
+
         }
     }
     &__input {
@@ -50,15 +56,16 @@ form {
     input {
         margin-right: 5px;
         margin-top: 10px;
+        caret-color: $input-color;
         &:focus {
             border: 1px solid #c0c0c0;
             outline: none;
             border-color: none;
         }
         &:checked {
-            accent-color: rgb(255, 58, 58);
+            accent-color: $input-color;
             & + label {
-                color: rgb(255, 58, 58);
+                color: $input-color;
             }
         }
     }

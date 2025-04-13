@@ -42,6 +42,7 @@
     <meta name="theme-color" content="#ffffff">
 
     <link rel="stylesheet" href="css/style.min.css">
+    </head>
 <body>
     <audio src="audio/ED-SHEERAN-Perfect.mp3" id="audio" loop type="audio/mpeg" autoplay></audio>
     <div class="audio-btn" id="playStopIcon">
@@ -81,7 +82,7 @@
         <div class="container">
             <div class="invite__wrapper">
                 <div class="devider devider_invite anim"></div>
-                <h1 class="title title_invite anim"> <span class="title title_invite">Дорогие</span> родные и друзья!</h1>
+                <h2 class="title title_invite anim"> <span class="title title_invite">Дорогие</span> родные и друзья!</h2>
                 <div class="descr descr_invite anim">Совсем скоро наступит один из главных дней нашей жизни – <br> мы женимся! <br><br> Ждём Вас</div>
                 <div class="invite__date title title_invite-date anim">12 августа 2027 г.</div>
             </div>
@@ -91,6 +92,11 @@
     <div class="container">
         <div class="countdown__wrapper">
             <div class="devider devider__countdown anim"></div>
+            <div class="anim">
+                <h2 class="title title_countdown">
+                    Будем рады видеть Вас через:
+                </h2>
+            </div>
             <div class="countdown anim">
                 <div class="countdown-item">
                 <span id="days">00</span>
@@ -158,9 +164,12 @@
     <section class="calendar">
         <div class="container">
             <div class="calendar__wrapper">
+                <div class="calendar__img">
+                    <img src="img/h_m.png" alt="H&M">
+                </div>
                 <div class="devider devider_calendar anim"></div>
-            <h1 class="title title_calendar anim">Август</h1>
-            <table class="calendar__table">
+                <h2 class="title title_calendar anim">Август</h2>
+                <table class="calendar__table">
                 <thead>
                     <tr>
                         <th>Пн</th>
@@ -234,7 +243,7 @@
     <section class="programm">
         <div class="container">
             <div class="devider devider_programm anim"></div>
-            <h1 class="title title_programm anim">Программа дня </h1>
+            <h2 class="title title_programm anim">Программа дня </h2>
             <div class="programm__wrapper">
                 <div class="programm__img__for-dot programm__img__for-dot__line-1 anim anim_programm">
                     <div class="programm__img programm__img-1"></div>
@@ -259,7 +268,7 @@
         <div class="container">
             <div class="wishes__wrapper">
                 <div class="devider devider_wishes anim"></div>
-                <h1 class="title title_wishes anim">Пожелания</h1>
+                <h2 class="title title_wishes anim">Пожелания</h2>
                 <div class="wishes__item descr descr_wishes anim"> - <span>Подарки</span> - <br> Главное для нас – ваше внимание, а радость доставит любой подарок в конверте!
                 </div>
                 <div class="wishes__item descr descr_wishes anim"> - <span>Цветы</span> - <br> Из-за романтического путешествия мы не сможем в полной мере насладиться красотой и ароматом цветов, зато подаренная вами бутылка вина или другого крепкого алкоголя для домашней коллекции придется кстати после возвращения!
@@ -284,11 +293,11 @@
         <div class="container">
             <div class="form__wrapper">
                 <div class="devider devider_form anim"></div>
-                <h1 class="title title_form anim">Анкета гостя</h1>
+                <h2 class="title title_form anim">Анкета гостя</h2>
                 <div class="form__questionion descr descr_form anim">
                     Ответьте, пожалуйста, на несколько вопросов, которые мы для Вас подготовили:
                 </div>
-                <form action="" method="post">
+                <form>
                     <div class="form__no-flex anim">
                         <label for="name" class="font-vibe">Ваше имя и фамилия:</label>
                         <input type="text" class="form__text" name="name" id="name" placeholder="Введите имя и фамилию" required autocomplete="name">
@@ -330,7 +339,7 @@
                         <input type="radio" id="no-stay" name="stay">
                         <label for="no-stay">Нет</label>
                     </fieldset>
-                    <div class="form__no-flex" anim>
+                    <div class="form__no-flex anim" >
                         <label class="font-vibe" for="partner">Будете ли Вы со своей второй половинкой?</label>
                         <input type="text" class="form__text" name="partnerName" id="partner" placeholder="Если ДА, напишите ее/его имя и фамилию" pattern="[A-Za-zA-Яа-я]+">
                     </div> 
@@ -348,7 +357,7 @@
             <div class="footer__wrapper">
                 <div class="devider devider_footer anim"></div>
                 <div class="descr descr_footer anim">БУДЕМ РАДЫ ВИДЕТЬ ВАС НА НАШЕМ ПРАЗДНИКЕ!</div>
-                <h1 class="title title_footer">Ваши <br> Николай и Маргарита</h1>
+                <h2 class="title title_footer">Ваши <br> Николай и Маргарита</h2>
                 <div class="devider devider_footer"></div>
             </div>
         </div>
