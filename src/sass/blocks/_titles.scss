@@ -29,7 +29,8 @@
         text-align: center;
         text-wrap: pretty; 
         transform: translateY(20px);
-        opacity: .7;
+        font-size: clamp(30px, 4vw, 48px);
+
     }
 }
 
