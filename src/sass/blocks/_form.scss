@@ -19,7 +19,7 @@
     &__no-flex {
         width: 100%;
         input {
-            margin: 5px;
+            margin: 0;
             margin-top: 10px;
             background: rgba(242, 247, 255, 0);
             width: 99%;
@@ -47,6 +47,8 @@ form {
         legend {
             font-size: 20px;
             line-height: 1.8rem;
+            max-width: 100%;
+            padding-left: 2px;
         }
     }
     label {
